@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог — 3D Figures</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<button id="themeToggle" class="theme-btn">🌙 Тёмная тема</button>
+<button id="goTop" class="go-top">↑ Наверх</button>
+
+<header>
+    <div class="logo">🧸 3D Figures</div>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="favorites.html">❤️ Избранное</a>
+        <a href="cart.html">🛒 Корзина (<span id="cartCount">0</span>)</a>
+    </nav>
+</header>
+
+<div class="breadcrumbs">
+    <a href="index.html">Главная</a> <span>/</span> <span>Каталог</span>
+    <button class="back-btn" onclick="history.back()">← Назад</button>
+</div>
+
+<main>
+    <h1>Все модели</h1>
+    <div class="product-grid" id="catalogGrid"></div>
+</main>
+
+<footer>
+    <p>© 2026 3D Figures Shop — печать на заказ в Омске</p>
+    <p>📧 hello@3dfigures.ru | 🌍 Омск, ул. 3D Печатная, д. 8</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
